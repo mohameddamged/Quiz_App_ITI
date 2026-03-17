@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">JavaScript Exam --ITI--</h2>
+        <div class="Question-container">
+            <div class="question-counter">Question 1 of 5</div>
+            <div class="question">Is JavaScript Fun? (true/false) (Grade:5)</div>
+            <input type="text" id="answer-input" >
+        </div>
+        <div class="btns">
+            <a class="btn" id="prev-btn">←Prev</a>
+            <a class="btn" id="next-btn">Next→</a>
+        </div>
+        <a class="finish-btn">Finish Exam</a>
+
+        <a class="finish-btn" id="restart-btn" style="display: none;">Restart</a>
+        <div class="result-section" id="result-section">
+            <p id="result">Hello from result section</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
